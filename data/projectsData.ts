@@ -11,7 +11,7 @@ const projectsData: Project[] = [
     description: `Open collaborative event to embrace contribution to open source project.`,
     imgSrc: '/static/images/google.png',
     href: 'https://hacktoberfest.com',
-  },
+  }
 ]
 
 export default projectsData

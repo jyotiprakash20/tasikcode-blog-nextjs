@@ -7,7 +7,7 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tasikcode.com',
-  siteRepo: 'https://github.com/daguswijaya/tasikcode-blog-nextjs,
+  siteRepo: 'https://github.com/daguswijaya/tasikcode-blog-nextjs',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   mastodon: 'https://mastodon.social/@tasikcode',
