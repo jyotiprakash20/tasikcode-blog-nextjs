@@ -3,7 +3,8 @@ const siteMetadata = {
   title: 'Tasikcode',
   author: 'Tasikcode',
   headerTitle: '{tasikcode}',
-  description: 'Tasikmalaya Code Enthusiast Community',
+  description:
+    'Tasikcode adalah komunitas penggiat IT di Kota Tasikmalaya yang berfokus pada pengembangan keterampilan dan kolaborasi dalam bidang teknologi informasi. Komunitas ini menjadi wadah bagi para developer, desainer, dan pecinta teknologi untuk saling berbagi pengetahuan, pengalaman, serta belajar bersama mengenai pengembangan perangkat lunak, pemrograman, desain UI/UX, dan berbagai tren teknologi terbaru. Melalui berbagai kegiatan seperti meetup, workshop, dan hackathon, Tasikcode bertujuan untuk memberdayakan talenta lokal serta mendorong pertumbuhan ekosistem teknologi di Tasikmalaya.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tasikcode.com',
