@@ -11,12 +11,20 @@ export default function Home({ posts }) {
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            collaborative project
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-cyan-300 dark:text-cyan-300 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            collab//ora_tive
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
           </p>
+          <div className="space-y-2 pt-6 md:space-y-5">
+            <a href="https://tasikcode.com/blog/hacktoberfest-in-tasikmalaya-2024">
+              <p className="text-xl font-extrabold text-yellow-300">
+                <span className="text-xl font-normal">Join the hype : </span>Hacktoberfest in
+                Tasikmalaya 2024
+              </p>
+            </a>
+          </div>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
