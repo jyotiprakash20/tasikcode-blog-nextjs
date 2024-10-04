@@ -18,12 +18,16 @@ export default function Home({ posts }) {
             {siteMetadata.description}
           </p>
           <div className="space-y-2 pt-6 md:space-y-5">
-            <a href="https://tasikcode.com/blog/hacktoberfest-in-tasikmalaya-2024">
-              <p className="text-xl font-extrabold text-yellow-300">
-                <span className="text-xl font-normal">Join the hype : </span>Hacktoberfest in
-                Tasikmalaya 2024
-              </p>
-            </a>
+            <p className="text-xl font-extrabold text-yellow-300">
+              <span className="text-xl font-normal">Join the hype : </span>
+              <a href="https://events.mlh.io/events/11804-tasikmalaya-open-hack-day-2024">
+                Hacktoberfest in Tasikmalaya 2024
+              </a>{' '}
+              , <a href="https://tasikcode.com/tasikmalaya-open-hack-day-2024">About the event</a> ,{' '}
+              <a href="https://tasikcode.com/tasikmalaya-open-hack-day-2024">
+                Register at Eventbrite
+              </a>
+            </p>
           </div>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
