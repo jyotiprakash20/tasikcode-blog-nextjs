@@ -3,6 +3,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 import NewsletterForm from 'pliny/ui/NewsletterForm'
+import Image from 'next/image'
 
 const MAX_DISPLAY = 5
 
@@ -24,10 +25,19 @@ export default function Home({ posts }) {
                 Hacktoberfest in Tasikmalaya 2024
               </a>{' '}
               , <a href="https://tasikcode.com/tasikmalaya-open-hack-day-2024">About the event</a> ,{' '}
-              <a href="https://tasikcode.com/tasikmalaya-open-hack-day-2024">
-                Register at Eventbrite
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSekITNabzNL9a-bd8rGQyv8cSZD5EglHOXPp578okCtmNRFeA/viewform">
+                Register here
               </a>
             </p>
+          </div>
+          <div className="space-y-2 pt-2 md:space-y-5">
+            <Image
+              src="/static/images/header-tasikmalaya-open-hack-day-2024.png"
+              alt="Tasikmalaya Open Hack Day 2024"
+              width={1600}
+              height={900}
+              layout="responsive"
+            />
           </div>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
