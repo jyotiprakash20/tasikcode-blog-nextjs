@@ -88,6 +88,15 @@ module.exports = () => {
         },
       ]
     },
+    async redirects() {
+      return [
+        {
+          source: '/tasikmalaya-open-hack-day-2024', // the static path you want to redirect from
+          destination: '/blog/tasikmalaya-open-hack-day-2024', // the target path you want to redirect to
+          permanent: true, // use `true` for permanent 301 redirects, or `false` for temporary 302 redirects
+        },
+      ]
+    },
     webpack: (config, options) => {
       config.module.rules.push({
         test: /\.svg$/,
